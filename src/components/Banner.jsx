@@ -37,25 +37,25 @@ const clients = [
 
 const Banner = () => {
   return (
-    <section className="bg-[#FFFFFF] h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="bg-[#FAF6EA] px-6  lg:px-10">
+    <section className="bg-[#FFFFFF]">
+      <div className="flex flex-col lg:flex-row">
+        <div className="bg-[#FAF6EA] px-6  lg:px-12 py-[80px]">
           <div className="flex flex-col">
-            <div className="h-full w-full pt-[80px]">
-              <Logo className="h-[123px]" />
+            <div className="h-full w-full">
+              <Logo className="h-[123px] w-[300px] lg:w-auto" />
             </div>
-            <span className="font-Inter font-light text-[100px] leading-[121.02px]">
+            <span className="font-Inter font-light lg:text-[80px]  lg:leading-[100.02px] leading-[50.02px] text-[50px]">
               Get ready for a
             </span>
-            <span className="font-Inter font-bold text-[90px] leading-[121.02px]">
+            <span className="font-Inter font-bold lg:text-[70px] lg:leading-[100.02px] leading-[50.02px] text-[50px] mb-2 lg:mb-0">
               new beginning.
             </span>
-            <p className="font-Inter font-light text-[50px] leading-[60.51px]">
+            <p className="font-Inter font-light lg:text-[50px] lg:leading-[60.51px] leading-[40.02px] text-[40px]">
               We’ll be here soon with our new website,subscribe to be notified.
             </p>
             {/* Input */}
             <div className="relative mb-6 pt-10">
-              <div className="absolute inset-y-0 right-0 flex items-center pr-3 cursor-pointer">
+              <div className="absolute inset-y-0 right-0 flex items-center pr-3 cursor-pointer h-8 lg:bottom-[-40px] my-auto">
                 <p className="font-Inter font-semibold text-[#000000] mr-2">
                   Notify Me
                 </p>
@@ -83,7 +83,7 @@ const Banner = () => {
             <span className="font-Inter font-normal text-[35px] leading-[42.36px]">
               Happy clients include:
             </span>
-            <div className="flex space-x-6 pt-4">
+            <div className="lg:flex lg:space-x-6 pt-4 grid grid-cols-3 gap-x-6">
               {clients.map((client, index) => (
                 <div className="h-auto w-auto" key={index}>
                   <img
@@ -96,7 +96,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="w-[100%] h-[100%]">
+        <div className="w-full h-full">
           <img src={hero} alt="man" className="h-full w-full" />
         </div>
       </div>
