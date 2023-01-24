@@ -43,13 +43,13 @@ const Banner = () => {
           <div>
             <Logo className="w-full max-w-xs md:max-w-sm lg:max-w-md" />
           </div>
-          <span className="font-Inter font-light  leading-[50.02px] text-[50px]">
+          <span className="font-Inter font-light  lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[40px]">
             Get ready for a
           </span>
-          <span className="font-Inter font-bold leading-[50.02px] text-[50px] py-2">
+          <span className="font-Inter font-bold lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[40px] py-2">
             new beginning.
           </span>
-          <p className="font-Inter font-light  leading-[40.02px] text-[40px]">
+          <p className="font-Inter font-light  lg:leading-[40.02px] lg:text-[40px] leading-[30.02px] text-[30px]">
             We’ll be here soon with our new website,subscribe to be notified.
           </p>
           {/* Input */}
@@ -71,8 +71,8 @@ const Banner = () => {
             </div>
             <input
               type="email"
-              id="input-group-1"
-              class="bg-[#FAF6EA] font-Inter text-sm  block w-full  p-2.5 border-x-0  border-t-0 border-b border-[#000000] focus:border-[#7bd2dd] outline-none placeholder-[#000000]"
+              id="input-group"
+              class="bg-[#FAF6EA] font-Inter text-sm  w-full  p-2.5 border-x-0  border-t-0 border-b border-[#000000] focus:border-[#7bd2dd] outline-none placeholder-[#000000]"
               placeholder="Email address*"
             />
           </div>
