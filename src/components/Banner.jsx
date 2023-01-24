@@ -37,19 +37,19 @@ const clients = [
 
 const Banner = () => {
   return (
-    <section className="bg-[#FFFFFF] flex flex-col md:flex-row">
-      <div className="w-full md:w-1/2 bg-[#FAF6EA] px-6  md:px-[90px] py-[80px]">
+    <div className=" flex flex-col md:flex-row">
+      <div className=" w-full px-6  md:px-[90px] py-[80px]">
         <div className="flex flex-col">
           <div>
             <Logo className="w-full max-w-xs md:max-w-sm lg:max-w-md" />
           </div>
-          <span className="font-Inter font-light lg:text-[80px]  lg:leading-[100.02px] leading-[50.02px] text-[50px]">
+          <span className="font-Inter font-light  leading-[50.02px] text-[50px]">
             Get ready for a
           </span>
-          <span className="font-Inter font-bold lg:text-[70px] lg:leading-[100.02px] leading-[50.02px] text-[50px] mb-2 lg:mb-0">
+          <span className="font-Inter font-bold leading-[50.02px] text-[50px] py-2">
             new beginning.
           </span>
-          <p className="font-Inter font-light lg:text-[50px] lg:leading-[60.51px] leading-[40.02px] text-[40px]">
+          <p className="font-Inter font-light  leading-[40.02px] text-[40px]">
             We’ll be here soon with our new website,subscribe to be notified.
           </p>
           {/* Input */}
@@ -95,10 +95,10 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2">
-        <img src={hero} alt="man" className="h-full w-full" />
+      <div className="w-full h-auto">
+        <img src={hero}  alt="hero image" className="h-full w-full"/>
       </div>
-    </section>
+    </div>
   );
 };
 
