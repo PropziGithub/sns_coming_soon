@@ -50,7 +50,7 @@ const Banner = () => {
           <span className="font-Inter font-bold lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[35px] py-2">
             new beginning.
           </span>
-          <p className="font-Inter font-light  lg:leading-[40.02px] lg:text-[40px] text-center lg:text-start leading-[28.02px] text-[25px]">
+          <p className="font-Inter font-light  lg:leading-[40.02px] lg:text-[40px]  leading-[20px] text-[22px]">
             We'll be here soon with our new website,subscribe to be notified.
           </p>
           {/* Input */}
