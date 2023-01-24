@@ -43,7 +43,7 @@ const Banner = () => {
           <div>
             <Logo className="w-full max-w-xs md:max-w-sm lg:max-w-md" />
           </div>
-          <div className="flex flex-col pl-4">
+          <div className="flex flex-col px-3 lg:px-4">
           <span className="font-Inter font-light  lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[40px]">
             Get ready for a
           </span>
