@@ -47,11 +47,11 @@ const Banner = () => {
           <span className="font-Inter font-light  lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[40px]">
             Get ready for a
           </span>
-          <span className="font-Inter font-bold lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[40px] py-2">
+          <span className="font-Inter font-bold lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[35px] py-2">
             new beginning.
           </span>
-          <p className="font-Inter font-light  lg:leading-[40.02px] lg:text-[40px] leading-[28.02px] text-[28px]">
-            We’ll be here soon with our new website,subscribe to be notified.
+          <p className="font-Inter font-light  lg:leading-[40.02px] lg:text-[40px] leading-[28.02px] text-[25px]">
+            We'll be here soon with our new website,subscribe to be notified.
           </p>
           {/* Input */}
           <div className="relative mb-6 pt-10">
