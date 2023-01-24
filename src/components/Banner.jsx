@@ -43,18 +43,19 @@ const Banner = () => {
           <div>
             <Logo className="w-full max-w-xs md:max-w-sm lg:max-w-md" />
           </div>
+          <div className="flex flex-col pl-4">
           <span className="font-Inter font-light  lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[40px]">
             Get ready for a
           </span>
           <span className="font-Inter font-bold lg:leading-[50.02px] lg:text-[50px] leading-[40.02px] text-[40px] py-2">
             new beginning.
           </span>
-          <p className="font-Inter font-light  lg:leading-[40.02px] lg:text-[40px] leading-[30.02px] text-[30px]">
+          <p className="font-Inter font-light  lg:leading-[40.02px] lg:text-[40px] leading-[28.02px] text-[28px]">
             We’ll be here soon with our new website,subscribe to be notified.
           </p>
           {/* Input */}
           <div className="relative mb-6 pt-10">
-            <div className="absolute inset-y-0 right-0 flex items-center pr-3 cursor-pointer h-8 lg:bottom-[-40px] my-auto">
+            <div className="absolute inset-y-0 right-0 flex items-center pr-3 cursor-pointer h-8 bottom-[-40px] my-auto">
               <p className="font-Inter font-semibold text-[#000000] mr-2">
                 Notify Me
               </p>
@@ -92,6 +93,7 @@ const Banner = () => {
                 />
               </div>
             ))}
+          </div>
           </div>
         </div>
       </div>
